@@ -1,0 +1,16 @@
+body {
+	font-family: 'Courier New', monospace;
+	margin: 0;
+	padding: 0;
+	background-color: #8c8c8c;
+	color: #ffffff;
+	text-align: center;
+}
+
+nav {
+	background-color: #d5d5d5;
+}
+
+footer {
+	background-color: #5c5c5c;
+}
