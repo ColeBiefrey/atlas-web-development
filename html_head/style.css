@@ -7,10 +7,77 @@ body {
 	text-align: center;
 }
 
+p {
+	margin-left:380px;
+	margin-right:380px;
+}
+
 nav {
 	background-color: #d5d5d5;
 }
 
 footer {
-	background-color: #5c5c5c;
+	background-color: #d745ff;
+}
+
+img {
+	width: 450px;
+	height: auto;
+}
+
+#PEI {
+	width: 300px;
+	height: auto;
+}
+
+#Malz {
+	width: 25px;
+	height: 25px;
+}
+
+#Cross {
+	width: 350px;
+	height: auto;
+}
+
+#Raito {
+	width: 350px;
+	height: auto;
+}
+
+#barn {
+	width: 550px;
+	height: auto;
+}
+
+#artist {
+	width: 600px;
+	height: auto;
+}
+
+#malzenofull {
+	width: 550px;
+	height: auto;
+}
+
+h2 {
+	background-color: #ff4cd6
+}
+
+h3 {
+	background-color: #d100a1
+}
+
+h4 {
+	background-color: #2A2A2A
+}
+
+* {
+	box-sizing: border-box;
+}
+
+.row {
+	display: grid;
+	grid-template-columns: repeat(3 ,1fr);
+	gap: 10px;
 }
