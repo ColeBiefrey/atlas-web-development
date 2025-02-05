@@ -1,24 +1,108 @@
-header {
-    height: 1080px;
-    background-image: url("./images/pic_1.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: scroll;
+@font-face {
+    font-family: 'source_sans_problack';
+    src: url('./fonts/sourcesanspro-black-webfont.woff2') format('woff2'),
+         url('./fonts/sourcesanspro-black-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
 }
 
-body {
-    margin: auto;
+@font-face {
+    font-family: 'source_sans_problack_italic';
+    src: url('./fonts/sourcesanspro-blackit-webfont.woff2') format('woff2'),
+         url('./fonts/sourcesanspro-blackit-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
 }
 
-footer {
-    display: flex;
-    height: 250px;
-    background-color: #071629;
-    padding: 40px 10%;
+@font-face {
+    font-family: 'source_sans_probold_italic';
+    src: url('./fonts/sourcesanspro-boldit-webfont.woff2') format('woff2'),
+         url('./fonts/sourcesanspro-boldit-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'source_sans_proXLtIt';
+    src: url('./fonts/sourcesanspro-extralightit-webfont.woff2') format('woff2'),
+         url('./fonts/sourcesanspro-extralightit-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'source_sans_proitalic';
+    src: url('./fonts/sourcesanspro-it-webfont.woff2') format('woff2'),
+         url('./fonts/sourcesanspro-it-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'source_sans_prolight';
+    src: url('./fonts/sourcesanspro-light-webfont.woff2') format('woff2'),
+         url('./fonts/sourcesanspro-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'source_sans_prolight_italic';
+    src: url('./fonts/sourcesanspro-lightit-webfont.woff2') format('woff2'),
+         url('./fonts/sourcesanspro-lightit-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'source_sans_proregular';
+    src: url('./fonts/sourcesanspro-regular-webfont.woff2') format('woff2'),
+         url('./fonts/sourcesanspro-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'source_sans_prosemibold';
+    src: url('./fonts/sourcesanspro-semibold-webfont.woff2') format('woff2'),
+         url('./fonts/sourcesanspro-semibold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'source_sans_probold';
+    src: url('./fonts/sourcesanspro-bold-webfont.woff2') format('woff2'),
+         url('./fonts/sourcesanspro-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'source_sans_proSBdIt';
+    src: url('./fonts/sourcesanspro-semiboldit-webfont.woff2') format('woff2'),
+         url('./fonts/sourcesanspro-semiboldit-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
 }
 
 html {
     font-family: 'source_sans_proregular';
+}
+
+body {
+    margin: auto;
 }
 
 .container {
@@ -30,31 +114,38 @@ html {
     flex-direction: column;
 }
 
+.header-wording {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
 .row {
     display: flex;
     flex-direction: row;
     width: 100%;
 }
 
-.column-wide {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-}
-
-.row-wide-col {
+.header-row2 {
     display: flex;
     flex-direction: column;
     width: 100%;
     justify-content: center;
 }
 
-.header-row {
+header {
+    height: 1080px;
+    background-image: url("./images/pic_1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+}
+
+footer {
     display: flex;
-    justify-content: space-around;
-    width: 90%;
-    height: 30px;
-    margin: 1.5em 2em;
+    height: 250px;
+    background-color: #071629;
+    padding: 40px 10%;
 }
 
 a:link {
@@ -73,136 +164,36 @@ a:active {
     text-decoration: none;
 }
 
-.nav-marg {
-    width: 40%;
-}
-
-.dynams {
-    display: flex;
-}
-
-.header-p {
-    display: flex;
-    justify-content: center;
-}
-
-.header-wording {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-}
-
-.header-row2 {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    justify-content: center;
-}
-
-.header-column {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-}
-
-@font-face {
-    font-family: 'source_sans_problack';
-    src: url('./fonts/sourcesanspro-black-webfont.woff2') format('woff2'), url('./fonts/sourcesanspro-black-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'source_sans_problack_italic';
-    src: url('./fonts/sourcesanspro-blackit-webfont.woff2') format('woff2'), url('./fonts/sourcesanspro-blackit-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'source_sans_probold_italic';
-    src: url('./fonts/sourcesanspro-boldit-webfont.woff2') format('woff2'), url('./fonts/sourcesanspro-boldit-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'source_sans_proXLtIt';
-    src: url('./fonts/sourcesanspro-extralightit-webfont.woff2') format('woff2'), url('./fonts/sourcesanspro-extralightit-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'source_sans_proitalic';
-    src: url('./fonts/sourcesanspro-it-webfont.woff2') format('woff2'), url('./fonts/sourcesanspro-it-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'source_sans_prolight';
-    src: url('./fonts/sourcesanspro-light-webfont.woff2') format('woff2'), url('./fonts/sourcesanspro-light-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'source_sans_prolight_italic';
-    src: url('./fonts/sourcesanspro-lightit-webfont.woff2') format('woff2'), url('./fonts/sourcesanspro-lightit-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'source_sans_proregular';
-    src: url('./fonts/sourcesanspro-regular-webfont.woff2') format('woff2'), url('./fonts/sourcesanspro-regular-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'source_sans_prosemibold';
-    src: url('./fonts/sourcesanspro-semibold-webfont.woff2') format('woff2'), url('./fonts/sourcesanspro-semibold-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'source_sans_probold';
-    src: url('./fonts/sourcesanspro-bold-webfont.woff2') format('woff2'), url('./fonts/sourcesanspro-bold-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'source_sans_proSBdIt';
-    src: url('./fonts/sourcesanspro-semiboldit-webfont.woff2') format('woff2'), url('./fonts/sourcesanspro-semiboldit-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
-.row-motto {
-    font-family: 'source_sans_prosemibold';
-    font-size: 115px;
-    margin-bottom: 10px;
-    margin-top: 120px;
-    color: #FFFFFF;
-    justify-content: center;
-}
-
-.row-taglines {
-    color: #FFFFFF;
-    font-size: 16px;
-    margin-top: 0px;
-    margin-bottom: 40px;
-    font-family: 'source_sans_probold';
-    display: flex;
+.block-container {
+    margin-top: 40px;
+    width: 80%;
+    align-self: center;
     justify-content: space-around;
-    width: 25%;
 }
 
-.title-button {
+.blockperson {
+    color: #FFFFFF;
+    justify-content: center;
+    text-align: center;
+}
+
+.peoples-name {
+    font-weight: 900;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.peoples-images {
+    border-radius: 50%;
+}
+
+.peoples-award {
+    margin-top: 5px;
+    font-style: italic;
+    font-family: 'source_sans_prolight';
+}
+
+.button1 {
     display: flex;
     width: 13%;
     height: 44px;
@@ -216,8 +207,36 @@ a:active {
     box-shadow: 0px 2px 20px #00000050;
 }
 
-.up-body-marg {
-    height: 125px;
+.header-row {
+    display: flex;
+    justify-content:space-around;
+    width: 90%;
+    height: 30px;
+    margin: 1.5em 2em;
+}
+
+.header-p {
+    display: flex;
+    justify-content: center;
+}
+
+.header-column {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.learn {
+    color: #C271FF;
+    font-family: 'source_sans_probold';
+}
+
+.learn-peoples {
+    color: #FFFFFF;
+    font-family: 'source_sans_prolight';
+    justify-content: center;
+    font-size: 32px;
+    font-weight: 300;
 }
 
 .peoples {
@@ -230,49 +249,10 @@ a:active {
     width: 100%;
 }
 
-.learn-peoples {
-    color: #FFFFFF;
-    font-family: 'source_sans_prolight';
-    justify-content: center;
-    font-size: 32px;
-    font-weight: 300;
-}
-
-.block-container {
-    margin-top: 40px;
-    width: 80%;
-    align-self: center;
-    justify-content: space-around;
-}
-
-.blockperson {
-    color: #FFFFFF;
-    font-family: 'source_sans_prolight';
-    justify-content: center;
-    font-size: 32px;
-    font-weight: 300;
-}
-
-.peoples-images {
-    border-radius: 50%;
-}
-
-.peoples-name {
-    font-weight: 900;
-    font-size: 18px;
-    margin-bottom: 5px;
-}
-
-.peoples-award {
-    margin-top: 5px;
-    font-style: italic;
-    font-family: 'source_sans_prolight';
-}
-
 .nav-row {
     display: flex;
     width: 15%;
-    justify-content: space-between;
+    justify-content:space-between;
     align-content: center;
 }
 
@@ -283,9 +263,13 @@ a:active {
     align-self: center;
 }
 
+.nav-spacer {
+    width: 40%;
+}
+
 .quotes-section {
     padding: 0 20% 0 10%;
-    height: 380px;
+    height:380px;
     background-color: #C271FF;
     color: #FFFFFF;
     align-content: center;
@@ -304,7 +288,7 @@ a:active {
     border-radius: 50%;
 }
 
-.mainquote blockquote {
+.mainquote blockquote{
     margin: 0;
     line-height: 150%;
 }
@@ -325,7 +309,7 @@ a:active {
     color: #071629;
 }
 
-.video-sec-title {
+.video-sec-title, .row-videos {
     justify-content: center;
 }
 
@@ -335,29 +319,14 @@ a:active {
     font-size: 32px;
 }
 
-.row-videos {
-    justify-content: center;
+.video-header span {
+    font-family: 'source_sans_probold';
+    color: #C271FF;
 }
 
 .video-block-column {
     margin: 1.5%;
     width: 18%;
-}
-
-.thumbnail-display {
-    position: relative;
-}
-
-.thumbnail-display::after {
-content: url('./images/play.png');
-z-index: 20;
-position: absolute;
-right: 38%;
-top: 27%;
-}
-
-.video-thumbnail {
-    z-index: 10;
 }
 
 .video-minor-row {
@@ -369,9 +338,29 @@ top: 27%;
     font-family: 'source_sans_prosemibold';
 }
 
-.video-descript {
+.video-description {
     opacity: 50.16%;
     font-size: 14px;
+}
+
+.video-thumbnail {
+    z-index: 10;
+    max-width: 97%;
+    height: auto;
+}
+
+.thumbnail-display {
+    position: relative;
+}
+
+.thumbnail-display::after {
+    content: url('./images/play.png');
+    z-index: 20;
+    position: absolute;
+    right: 38%;
+    top: 27%;
+    max-width: 40%;
+    height: auto;
 }
 
 .author-row {
@@ -383,13 +372,14 @@ top: 27%;
     color: #C271FF;
 }
 
-.author-row div {
-    margin: 0 3%;
-
-}
-
 .author-image {
     border-radius: 50%;
+    max-width: 14%;
+    height: auto;
+}
+
+.author-row div {
+    margin: 0 3%;
 }
 
 .rating-row {
@@ -416,24 +406,21 @@ top: 27%;
     justify-content: center;
 }
 
-.membership-title-margin {
+.membership-title-marg {
     margin: 25px 0;
-}
-
-.membership-title {
-    color: #FFFFFF;
-    font-family: 'source_sans_prolight';
-    font-weight: 300;
-    font-size: 32px;
-}
-
-.membership-title span {
-    font-family: 'source_sans_probold';
-    color: #C271FF;
 }
 
 .membership-infill {
     justify-content: space-around;
+}
+
+.membership-row {
+    justify-content: center;
+}
+
+.membership-row .btn {
+    width: 10%;
+    margin-top: 50px;
 }
 
 .membership-column {
@@ -454,27 +441,16 @@ top: 27%;
     text-align: center;
 }
 
-.membership-row {
-    justify-content: center;
-}
-
-.membership-button-row .btn {
-    width: 10%;
-    margin-top: 50px;
-}
-
-.member-button {
-    display: flex;
-    width: 13%;
-    height: 44px;
-    justify-content: center;
-    align-items: center;
-    border-radius: 30px;
-    border-style: none;
-    background: #C271FF;
+.membership-title {
     color: #FFFFFF;
-    font-family: 'source_sans_prosemibold';
-    box-shadow: 0px 2px 20px #00000050;
+    font-family: 'source_sans_prolight';
+    font-weight: 300;
+    font-size: 32px;
+}
+
+.membership-title span {
+    font-family: 'source_sans_probold';
+    color: #C271FF;
 }
 
 .faq {
@@ -487,17 +463,8 @@ top: 27%;
     font-family: 'source_sans_prolight';
     justify-content: center;
 }
-
-.faq-title h1 {
+.faq-header h1 {
     font-weight: 300;
-}
-
-.faq-holder {
-    justify-content: space-around;
-}
-
-.faq-column {
-    align-items: center;
 }
 
 .faq-row {
@@ -505,14 +472,22 @@ top: 27%;
     justify-content: center;
 }
 
+.faq-column {
+    align-items: center;
+}
+
+.faq-holder {
+justify-content: space-around;
+}
+
 .faq-title2 {
     align-items: center;
 }
 
 .faq-h {
-    line-height: 20.11px;
-    font-size: 16px;
-    font-family: 'source_sans_prosemibold';
+ line-height: 20.11px;
+ font-size: 16px;
+ font-family: 'source_sans_prosemibold';
 }
 
 .faq-p {
@@ -534,7 +509,6 @@ top: 27%;
 .outbound-column {
     width: 12%;
 }
-
 .outbound-links {
     justify-content: space-around;
 }
@@ -544,4 +518,28 @@ top: 27%;
     color: #FFFFFF;
     opacity: 35.17%;
     font-size: 12px;
+}
+
+.row-motto {
+    font-family: 'source_sans_prosemibold';
+    font-size: 115px;
+    margin-bottom: 10px;
+    margin-top: 120px;
+    color: #FFFFFF;
+    justify-content: center;
+}
+
+.row-taglines {
+    color: #FFFFFF;
+    font-size: 16px;
+    margin-top: 0px;
+    margin-bottom: 40px;
+    font-family: 'source_sans_probold';
+    display: flex;
+    justify-content: space-around;
+    width: 25%;
+}
+
+.up-body-marg {
+    height: 125px;
 }
