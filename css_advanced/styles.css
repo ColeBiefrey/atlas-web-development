@@ -60,3 +60,167 @@ body {
     justify-content: flex-start;
     align-items: center;
 }
+
+@font-face {
+    font-family: 'source_sans_problack';
+    src: url('./fonts/sourcesanspro-black-webfont.woff2') format('woff2'), url('./fonts/sourcesanspro-black-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'source_sans_problack_italic';
+    src: url('./fonts/sourcesanspro-blackit-webfont.woff2') format('woff2'), url('./fonts/sourcesanspro-blackit-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'source_sans_probold_italic';
+    src: url('./fonts/sourcesanspro-boldit-webfont.woff2') format('woff2'), url('./fonts/sourcesanspro-boldit-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'source_sans_proXLtIt';
+    src: url('./fonts/sourcesanspro-extralightit-webfont.woff2') format('woff2'), url('./fonts/sourcesanspro-extralightit-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'source_sans_proitalic';
+    src: url('./fonts/sourcesanspro-it-webfont.woff2') format('woff2'), url('./fonts/sourcesanspro-it-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'source_sans_prolight';
+    src: url('./fonts/sourcesanspro-light-webfont.woff2') format('woff2'), url('./fonts/sourcesanspro-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'source_sans_prolight_italic';
+    src: url('./fonts/sourcesanspro-lightit-webfont.woff2') format('woff2'), url('./fonts/sourcesanspro-lightit-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'source_sans_proregular';
+    src: url('./fonts/sourcesanspro-regular-webfont.woff2') format('woff2'), url('./fonts/sourcesanspro-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'source_sans_prosemibold';
+    src: url('./fonts/sourcesanspro-semibold-webfont.woff2') format('woff2'), url('./fonts/sourcesanspro-semibold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'source_sans_probold';
+    src: url('./fonts/sourcesanspro-bold-webfont.woff2') format('woff2'), url('./fonts/sourcesanspro-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'source_sans_proSBdIt';
+    src: url('./fonts/sourcesanspro-semiboldit-webfont.woff2') format('woff2'), url('./fonts/sourcesanspro-semiboldit-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.row-motto {
+    font-family: 'source_sans_prosemibold';
+    font-size: 115px;
+    margin-bottom: 10px;
+    margin-top: 120px;
+    color: #FFFFFF;
+    justify-content: center;
+}
+
+.row-taglines {
+    color: #FFFFFF;
+    font-size: 16px;
+    margin-top: 0px;
+    margin-bottom: 40px;
+    font-family: 'source_sans_probold';
+    display: flex;
+    justify-content: space-around;
+    width: 25%;
+}
+
+.title-button {
+    display: flex;
+    width: 13%;
+    height: 44px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    border-style: none;
+    background: #C271FF;
+    color: #FFFFFF;
+    font-family: 'source_sans_prosemibold';
+    box-shadow: 0px 2px 20px #00000050;
+}
+
+.up-body-marg {
+    height: 125px;
+}
+
+.peoples {
+    justify-content: center;
+}
+
+.peoples-column {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.learn-peoples {
+    color: #FFFFFF;
+    font-family: 'source_sans_prolight';
+    justify-content: center;
+    font-size: 32px;
+    font-weight: 300;
+}
+
+.block-container {
+    margin-top: 40px;
+    width: 80%;
+    align-self: center;
+    justify-content: space-around;
+}
+
+.blockperson {
+    color: #FFFFFF;
+    font-family: 'source_sans_prolight';
+    justify-content: center;
+    font-size: 32px;
+    font-weight: 300;
+}
+
+.peoples-images {
+    border-radius: 50%;
+}
+
+.peoples-name {
+    font-weight: 900;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.peoples-award {
+    margin-top: 5px;
+    font-style: italic;
+    font-family: 'source_sans_prolight';
+}
