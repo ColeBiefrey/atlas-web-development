@@ -164,9 +164,15 @@ a:active {
     text-decoration: none;
 }
 
+.viewport1 {
+    max-width: 1440px;
+    height: auto;
+}
+
 .block-container {
     margin-top: 40px;
-    width: 80%;
+    max-width: 1009px;
+    height: auto;
     align-self: center;
     justify-content: space-around;
 }
@@ -175,6 +181,8 @@ a:active {
     color: #FFFFFF;
     justify-content: center;
     text-align: center;
+    max-width: 150px;
+    height: auto;
 }
 
 .peoples-name {
@@ -285,7 +293,14 @@ a:active {
 }
 
 .quote-image {
+    max-width: 160px;
+    height: auto;
     border-radius: 50%;
+}
+
+.mainquote {
+    max-width: 730px;
+    height: auto;
 }
 
 .mainquote blockquote{
@@ -305,12 +320,23 @@ a:active {
 
 .video {
     margin: 5%;
+    max-width: 1288px;
     height: 450px;
     color: #071629;
 }
 
-.video-sec-title, .row-videos {
+.row-videos {
+    justify-content: space-evenly;
+
+}
+
+.video-sec-title {
     justify-content: center;
+}
+
+.starimg {
+    max-width: 15px;
+    height: auto;
 }
 
 .video-inheader {
@@ -319,7 +345,7 @@ a:active {
     font-size: 32px;
 }
 
-.video-header span {
+.video-inheader span {
     font-family: 'source_sans_probold';
     color: #C271FF;
 }
@@ -338,14 +364,14 @@ a:active {
     font-family: 'source_sans_prosemibold';
 }
 
-.video-description {
+.video-descript {
     opacity: 50.16%;
     font-size: 14px;
 }
 
 .video-thumbnail {
     z-index: 10;
-    max-width: 97%;
+    max-width: 255px;
     height: auto;
 }
 
@@ -397,17 +423,20 @@ a:active {
 }
 
 .membership-block {
+    max-width: 1440px;
     height: 502px;
+    align-content: space-between;
     background-color: #071629;
     padding-top: 25px;
 }
 
-.membership-title-row {
-    justify-content: center;
+.smileonimg {
+    max-width: 44px;
+    height: auto;
 }
 
-.membership-title-marg {
-    margin: 25px 0;
+.membership-title-row {
+    justify-content: center;
 }
 
 .membership-infill {
@@ -418,9 +447,23 @@ a:active {
     justify-content: center;
 }
 
-.membership-row .btn {
-    width: 10%;
-    margin-top: 50px;
+.button-holder {
+    justify-content: center;
+    align-items: center;
+}
+
+.button2 {
+    display: flex;
+    width: 13%;
+    height: 44px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    border-style: none;
+    background: #C271FF;
+    color: #FFFFFF;
+    font-family: 'source_sans_prosemibold';
+    box-shadow: 0px 2px 20px #00000050;
 }
 
 .membership-column {
@@ -446,9 +489,13 @@ a:active {
     font-family: 'source_sans_prolight';
     font-weight: 300;
     font-size: 32px;
+    max-width: 234px;
+    height: auto;
 }
 
-.membership-title span {
+.membership-span-title {
+    max-width: 234px;
+    height: auto;
     font-family: 'source_sans_probold';
     color: #C271FF;
 }
@@ -463,6 +510,7 @@ a:active {
     font-family: 'source_sans_prolight';
     justify-content: center;
 }
+
 .faq-header h1 {
     font-weight: 300;
 }
